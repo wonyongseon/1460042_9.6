@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                txName.setText("Won");
+                txName.setText("Won yong seon");
                 Toast.makeText(getApplicationContext(),"Won",Toast.LENGTH_SHORT).show();
             }
         });
